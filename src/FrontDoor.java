@@ -1,8 +1,12 @@
 public class FrontDoor {
     public static void main(String[] args) {
-        Circle circle = new Circle(5.0);
-        System.out.println(circle);
-        circle.setRadius(9.2);
-        System.out.println(circle);
+        RightTriangle triangle1 = new RightTriangle(3.0, 4.0);
+        double hypotenuse1 = triangle1.hypotenuse();
+        System.out.println(hypotenuse1);
+
+        RightTriangle triangle2 = new RightTriangle(6.5, 10.7);
+        double hypotenuse2 = triangle2.hypotenuse();
+        System.out.println(hypotenuse2);
+
     }
 }

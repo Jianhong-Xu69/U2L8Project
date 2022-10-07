@@ -13,7 +13,7 @@ public class RightTriangle
        of a right triangle with base (side a) and height (side b)
      */
     public double hypotenuse()
-    {
-        /* implement this method!  */
+    {/* implement this method!  */
+        return Math.sqrt(Math.pow(base, 2) + Math.pow(height, 2));
     }
 }
